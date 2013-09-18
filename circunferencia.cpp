@@ -8,7 +8,7 @@ int main()
 {
 double radios [5];
 for (int i = 0; i < 5; i++)
-{ cout << "\nIngrese el radio numero " << i << ": ";
+{ cout << "\nIngrese el radio " << i << ": ";
 cin >> radios[i];
 cout << "Diametro del circulo: " << diametro(radios[i]) << endl;
 cout << "Circunferencia: " << circunferencia(radios[i]) << endl;
